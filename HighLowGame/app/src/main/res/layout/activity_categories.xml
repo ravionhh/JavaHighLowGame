@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+
+    <TextView
+        android:id="@+id/catTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/catTitle"
+        android:textColor="@color/black"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/twoPlayersButton"
+        android:layout_width="321dp"
+        android:layout_height="75dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/twoPlayers"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@id/threePlayersButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/catTitle"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/threePlayersButton"
+        android:layout_width="321dp"
+        android:layout_height="75dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/threePlayers"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/highLowButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twoPlayersButton"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <Button
+        android:id="@+id/highLowButton"
+        android:layout_width="321dp"
+        android:layout_height="75dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/fourPlayers"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <Button
+        android:id="@+id/reverseButton"
+        android:layout_width="321dp"
+        android:layout_height="75dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/reverseMode"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threePlayersButton"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="216dp"
+        android:layout_height="67dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/exitButton"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reverseButton"
+        app:layout_constraintVertical_bias="0.549" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

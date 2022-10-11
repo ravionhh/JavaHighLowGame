@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">High Low Game</string>
+    <string name="play_text">PLAY</string>
+    <string name="newGameButton">START NEW GAME</string>
+    <string name="catTitle">CATEGORIES</string>
+    <string name="twoPlayers">TWO PLAYERS</string>
+    <string name="threePlayers">THREE PLAYERS</string>
+    <string name="fourPlayers">HIGH LOW MODE</string>
+    <string name="reverseMode">REVERSE MODE</string>
+    <string name="directions">Directions: Cards 2 through 6 are Low. Cards 7 through 10, and Ace are High.</string>
+    <string name= "goodLuck">Good Luck!</string>
+    <string name="high">HIGH</string>
+    <string name="low">LOW</string>
+    <string name="player1Low">Player 1 You Are Low!</string>
+    <string name="player2High">Player 2 You Are High!</string>
+    <string name="reverse">This is a reverse mode of two players</string>
+    <string name="exitButton">EXIT</string>
+
+</resources>
